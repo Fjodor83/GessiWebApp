@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GessiWebApp.API", "GessiWebApp.API\GessiWebApp.API.csproj", "{2D171EB5-2F04-44B6-BF9D-2B5AFE7F659D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GessiWebApp.Web", "GessiWebApp.Web\GessiWebApp.Web.csproj", "{D78D2800-EA3C-4CF0-90A3-AC03CDFF5D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D171EB5-2F04-44B6-BF9D-2B5AFE7F659D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D171EB5-2F04-44B6-BF9D-2B5AFE7F659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D171EB5-2F04-44B6-BF9D-2B5AFE7F659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D171EB5-2F04-44B6-BF9D-2B5AFE7F659D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78D2800-EA3C-4CF0-90A3-AC03CDFF5D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78D2800-EA3C-4CF0-90A3-AC03CDFF5D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78D2800-EA3C-4CF0-90A3-AC03CDFF5D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78D2800-EA3C-4CF0-90A3-AC03CDFF5D64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
