@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GessiWebApp.API.Services
 {
-    public class MaterialService
+    public class MaterialService : IMaterialService
     {
         private readonly ApplicationDbContext _context;
 
@@ -49,6 +49,16 @@ namespace GessiWebApp.API.Services
                 _context.Materials.Remove(material);
                 _context.SaveChanges();
             }
+        }
+
+        public IEnumerable<Material> GetAllMaterials()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddMaterial(Material material)
+        {
+            throw new NotImplementedException();
         }
     }
 }

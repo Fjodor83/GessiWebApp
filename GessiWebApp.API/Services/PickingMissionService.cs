@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GessiWebApp.API.Services
 {
-    public class PickingMissionService
+    public class PickingMissionService : IPickingMissionService
     {
         private readonly ApplicationDbContext _context;
 
@@ -47,6 +47,16 @@ namespace GessiWebApp.API.Services
                 _context.PickingMissions.Remove(pickingMission);
                 _context.SaveChanges();
             }
+        }
+
+        public IEnumerable<PickingMission> GetAllPickingMissions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddPickingMission(PickingMission pickingMission)
+        {
+            throw new NotImplementedException();
         }
     }
 }

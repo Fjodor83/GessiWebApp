@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GessiWebApp.API.Services
 {
-    public class MovementService
+    public class MovementService : IMovementService
     {
         private readonly ApplicationDbContext _context;
 
@@ -49,6 +49,16 @@ namespace GessiWebApp.API.Services
                 _context.Movements.Remove(movement);
                 _context.SaveChanges();
             }
+        }
+
+        public IEnumerable<Movement> GetAllMovements()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddMovement(Movement movement)
+        {
+            throw new NotImplementedException();
         }
     }
 }

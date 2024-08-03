@@ -11,6 +11,7 @@ namespace GessiWebApp.API.Data
         public DbSet<Material> Materials { get; set; }
         public DbSet<Classification> Classifications { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Movement> Movements { get; set; }
         public DbSet<PickingMission> PickingMissions { get; set; }
 

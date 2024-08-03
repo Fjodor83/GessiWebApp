@@ -3,7 +3,7 @@ using GessiWebApp.API.Models;
 
 namespace GessiWebApp.API.Services
 {
-    public class WarehouseService
+    public class WarehouseService : IWarehouseService
     {
         private readonly ApplicationDbContext _context;
 
@@ -42,6 +42,16 @@ namespace GessiWebApp.API.Services
                 _context.Warehouses.Remove(warehouse);
                 _context.SaveChanges();
             }
+        }
+
+        public IEnumerable<Warehouse> GetAllWarehouses()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddWarehouse(Warehouse warehouse)
+        {
+            throw new NotImplementedException();
         }
     }
 }

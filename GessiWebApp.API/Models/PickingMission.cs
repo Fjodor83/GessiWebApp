@@ -8,5 +8,6 @@ namespace GessiWebApp.API.Models
         public string Description { get; set; }
         public string Status { get; set; } // Attiva/Sospesa/Completata
         public List<Material> Materials { get; set; }
+        public int UserId { get; internal set; }
     }
 }
